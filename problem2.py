@@ -10,7 +10,7 @@ for i in word_count:
 print(count)
 f=open("output.txt","w")
 f.write(data)
-f.write("Word_Count:\n")
+f.write("\nWord_Count:\n")
 for key,value in count.items():
     f.write(f"{key}:{value}\n")
 f.close()
